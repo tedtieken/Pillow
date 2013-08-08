@@ -75,12 +75,12 @@ except ImportError:
 
 NAME = 'Pillow'
 VERSION = '2.1.0'
-TCL_ROOT = None
-JPEG_ROOT = None
-ZLIB_ROOT = None
-TIFF_ROOT = None
-FREETYPE_ROOT = None
-LCMS_ROOT = None
+TCL_ROOT = '/usr/include'
+JPEG_ROOT = '/usr/include'
+ZLIB_ROOT = '/usr/include'
+TIFF_ROOT = '/usr/include'
+FREETYPE_ROOT = '/usr/include'
+LCMS_ROOT = '/usr/include'
 
 
 class pil_build_ext(build_ext):
